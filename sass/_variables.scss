@@ -1,0 +1,36 @@
+$primary-clr: #1070FD;
+$secondary-clr: #D93ED9;
+$whatsapp-clr: #07D94B;
+$text-color: #626262;
+$text-color-alt: #ffff;
+$shadow-clr: #E5E5E5;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all .2s linear;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+
+    &::-webkit-scrollbar{
+        width:0.75rem;
+    }
+
+    &::-webkit-scrollbar-track{
+        background:$text-color-alt;
+    }
+
+    &::-webkit-scrollbar-thumb{
+        background: $text-color;
+        border-radius: 5rem;
+    }
+}
+
+body{
+    padding: 0  9%;
+}

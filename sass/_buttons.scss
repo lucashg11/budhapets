@@ -1,0 +1,35 @@
+button {
+    border: none;
+    border-radius: 2.18rem;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.btn__wrapper{
+    width: 325px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    .btn__health{
+        width: 155px;
+        background-color: #9be5aa;
+        color: #385399;
+        font-weight: 600;
+        border: 2px solid $primary-clr;
+
+        &:hover {
+            background-color: $text-color-alt;
+            color: $primary-clr;
+            border: 2px solid #9be5aa;
+        }
+    }
+
+    .btn__call{
+        width: 155px;
+        background-color: #E80000;
+        color: $text-color-alt;
+        font-weight: 600;
+    }
+}
